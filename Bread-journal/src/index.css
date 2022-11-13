@@ -11,8 +11,46 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
 }
 
 .breadImg{
   width: 75px;
+}
+
+/* ########################### Card ########################### */
+
+.card--container{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.card--contentContainer{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.card--img{
+  width: 150px;
+  border-radius: 7px;
+}
+
+.card--titleContent{
+  display: flex;
+  align-items: baseline;
+}
+
+.card--wheatIcon{
+  width: 30px;
+}
+
+span{
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+.card--breadType{
+  font-size: 40px;
 }
