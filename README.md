@@ -6,6 +6,8 @@
 
 ## Notes
 
+- Learned an important lesson to not import components before they are setup/exporting. While just doing inital testing to make sure things were rendering, nothing was showing up in the browser. Traced it back to the card.jsx file being imported before it had any code it in. Commenting out that import allowed my test renders to go through normally.
+
 ## Credits
 
 ### Bread images provided by Unsplash

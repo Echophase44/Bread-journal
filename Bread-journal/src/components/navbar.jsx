@@ -1,8 +1,12 @@
 import React from 'react'
+import BreadImg from '../../public/images/bread.png'
 
 function Navbar(){
   return (
-    <h1>Test 2</h1>
+    <nav className='navbar'>
+      <img className='breadImg' src = {BreadImg}></img>
+      <h1>my bread journal.</h1>
+    </nav>
   )
 }
 
