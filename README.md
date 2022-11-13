@@ -8,7 +8,7 @@
 
 ## Credits
 
-### Bread images provided by unsplash
+### Bread images provided by Unsplash
 
 - <a href="https://source.unsplash.com/nVoDL1YDWRE">Sourdough image from Monika Grabkowska - Unsplash</a>
 - <a href="https://source.unsplash.com/w2ZFjDnUL3w">White Bread image from Charles Chen - Unsplash</a>
