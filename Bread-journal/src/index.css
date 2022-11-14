@@ -24,6 +24,8 @@
   display: flex;
   align-items: center;
   padding: 20px;
+  background-color: rgb(243, 243, 243);
+  position: relative;
 }
 
 .card--contentContainer{
@@ -35,6 +37,16 @@
 .card--img{
   width: 150px;
   border-radius: 7px;
+}
+
+.card--badge{
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 4px;
+  margin-top: 4px;
+  margin-left: 5px;
+  font-size: 12px;
 }
 
 .card--titleContent{
@@ -49,8 +61,19 @@
 span{
   padding-left: 15px;
   font-size: 13px;
+  color: gray;
 }
 
-.card--breadType{
+.card--recipe:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card--breadTitle{
   font-size: 40px;
+}
+
+.card--cookingTime{
+  padding: 8px 0px;
+  font-weight: bold;
 }
